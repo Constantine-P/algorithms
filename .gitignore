@@ -9,6 +9,9 @@
 *~
 *.sass-cache
 
+build
+node_modules
+
 # OS or Editor folders
 .DS_Store
 .idea

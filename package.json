@@ -1,0 +1,17 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Constantine-P/algorithms.git"
+  },
+  "private": true,
+  "dependencies": {
+    "directory-tree": "^3.5.2",
+    "marked": "^15.0.6"
+  }
+}
