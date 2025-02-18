@@ -1,0 +1,56 @@
+{
+  "name": "book",
+  "path": "",
+  "items": [
+    {
+      "name": "01-vvedenie",
+      "path": "01-vvedenie",
+      "items": [
+        {
+          "name": "01-ponyatie-algoritma",
+          "path": "01-vvedenie/01-ponyatie-algoritma",
+          "filePath": "01-vvedenie/01-ponyatie-algoritma/article.md",
+          "num": 1,
+          "label": "Понятие алгоритма"
+        },
+        {
+          "name": "02-osnovwi-resheniya-algoritmicheskoy-zadachi",
+          "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi",
+          "items": [
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#ponimanie-zadachi",
+              "label": "Понимание задачи",
+              "num": 1
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#zagolovok-2",
+              "label": "Заголовок 2",
+              "num": 2
+            }
+          ],
+          "filePath": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi/article.md",
+          "num": 2,
+          "label": "Основы решения алгоритмической задачи"
+        }
+      ],
+      "num": 1,
+      "label": "Введение"
+    },
+    {
+      "name": "02-osnovwi-analiza-weffektivnosti-algoritmov",
+      "path": "02-osnovwi-analiza-weffektivnosti-algoritmov",
+      "items": [
+        {
+          "name": "01-osnovwi-analiza",
+          "path": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza",
+          "filePath": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza/article.md",
+          "num": 1,
+          "label": "Основы анализа"
+        }
+      ],
+      "num": 2,
+      "label": "Основы анализа эффективности алгоритмов"
+    }
+  ],
+  "num": 0
+}

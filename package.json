@@ -3,15 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "make:contents": "node scripts/make-contents.mjs && git add book/contents.json"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Constantine-P/algorithms.git"
   },
+  "pre-commit": [
+    "make:contents"
+  ],
   "private": true,
   "dependencies": {
-    "directory-tree": "^3.5.2",
-    "marked": "^15.0.6"
+    "dree": "^5.1.5",
+    "rus-eng-transliteration": "https://github.com/Constantine-P/rus-eng-transliteration"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
   }
 }
