@@ -23,11 +23,14 @@ const dirCallback = function (node) {
   if (isLeaf) {
     const fileNode = node.items[0];
     const data = fs.readFileSync(`${inputDir}/${fileNode.relativePath}`, readWriteOptions);
-    node.items = Array.from(data.matchAll(headingRegexp)).map((x, index) => ({
-      path: node.relativePath + `#${convert(x.groups.heading, { slugify: true, lowerCase: true })}`,
-      label: x.groups.heading,
-      num: index + 1,
-    }));
+    node.items = Array.from(data.matchAll(headingRegexp)).map((x, index) => {
+      const label = x.groups.heading.replaceAll(/[^a-zA-Zа-яА-Я0-9_\s]/g, '');;
+      return ({
+        path: node.relativePath + `#${convert(label, { slugify: true, lowerCase: true })}`,
+        label,
+        num: index + 1,
+      });
+    });
     node.filePath = `${fileNode.relativePath}`;
   }
   node.path = node.relativePath;

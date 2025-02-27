@@ -11,18 +11,18 @@
           "path": "01-vvedenie/01-ponyatie-algoritma",
           "items": [
             {
-              "path": "01-vvedenie/01-ponyatie-algoritma#vwichislenie-nod-chisel-`m`-i-`n`-pri-pomoshhi-algoritma-evklida",
-              "label": "Вычисление НОД чисел `m` и `n` при помощи алгоритма Евклида",
+              "path": "01-vvedenie/01-ponyatie-algoritma#vwichislenie-nod-chisel-m-i-n-pri-pomoshhi-algoritma-evklida",
+              "label": "Вычисление НОД чисел m и n при помощи алгоритма Евклида",
               "num": 1
             },
             {
-              "path": "01-vvedenie/01-ponyatie-algoritma#vwichislenie-nod-chisel-`m`-i-`n`-metodom-posledovatelqnogo-perebora",
-              "label": "Вычисление НОД чисел `m` и `n` методом последовательного перебора",
+              "path": "01-vvedenie/01-ponyatie-algoritma#vwichislenie-nod-chisel-m-i-n-metodom-posledovatelqnogo-perebora",
+              "label": "Вычисление НОД чисел m и n методом последовательного перебора",
               "num": 2
             },
             {
-              "path": "01-vvedenie/01-ponyatie-algoritma#vwichislenie-nod-chisel-`m`-i-`n`-“shkolqnwim”-metodom",
-              "label": "Вычисление НОД чисел `m` и `n` “школьным” методом",
+              "path": "01-vvedenie/01-ponyatie-algoritma#vwichislenie-nod-chisel-m-i-n-shkolqnwim-metodom",
+              "label": "Вычисление НОД чисел m и n школьным методом",
               "num": 3
             }
           ],
