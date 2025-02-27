@@ -176,9 +176,10 @@ require-directory@^2.1.1:
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==
 
-"rus-eng-transliteration@https://github.com/Constantine-P/rus-eng-transliteration":
-  version "0.0.1"
-  resolved "https://github.com/Constantine-P/rus-eng-transliteration#d41b2209ffe640581e8bcc47a9ccb2543bab5223"
+rus-eng-transliteration@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/rus-eng-transliteration/-/rus-eng-transliteration-0.0.2.tgz#476565c8655bf0908103270771fcd7cfe298bf69"
+  integrity sha512-AbDUA/N4XAlCYuDMq9t0a1CDTdxT7/IrovMGWFXPgaJDpTb66/SuXwX3Ss52KFSUqnHzu8qpMNZDHZ4PkCK95Q==
 
 safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"

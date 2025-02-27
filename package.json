@@ -16,7 +16,7 @@
   "private": true,
   "dependencies": {
     "dree": "^5.1.5",
-    "rus-eng-transliteration": "https://github.com/Constantine-P/rus-eng-transliteration"
+    "rus-eng-transliteration": "^0.0.2"
   },
   "devDependencies": {
     "pre-commit": "^1.2.2"
