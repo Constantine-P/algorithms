@@ -24,7 +24,7 @@ const dirCallback = function (node) {
     const fileNode = node.items[0];
     const data = fs.readFileSync(`${inputDir}/${fileNode.relativePath}`, readWriteOptions);
     node.items = Array.from(data.matchAll(headingRegexp)).map((x, index) => {
-      const label = x.groups.heading.replaceAll(/[^a-zA-Zа-яА-Я0-9_\s]/g, '');;
+      const label = x.groups.heading.replaceAll(/[^a-zA-Zа-яА-Я0-9_\-\s]/g, '');
       return ({
         path: node.relativePath + `#${convert(label, { slugify: true, lowerCase: true })}`,
         label,
@@ -52,6 +52,7 @@ try {
   const tree = await dree.scan(
     inputDir,
     {
+      excludeEmptyDirectories: true,
       size: false,
       hash: false,
       extensions: ['md'],

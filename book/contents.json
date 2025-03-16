@@ -40,14 +40,154 @@
               "num": 1
             },
             {
-              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#zagolovok-2",
-              "label": "Заголовок 2",
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#opredelenie-vozmozhnostey-vwichislitelqnogo-ustroystva",
+              "label": "Определение возможностей вычислительного устройства",
               "num": 2
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#vwibor-mezhdu-tochnwim-ili-priblizhennwim-metodom-resheniya-zadachi",
+              "label": "Выбор между точным или приближенным методом решения задачи",
+              "num": 3
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#vwibor-podxodyashhix-struktur-dannwix",
+              "label": "Выбор подходящих структур данных",
+              "num": 4
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#metodwi-proektirovaniya-algoritmov",
+              "label": "Методы проектирования алгоритмов",
+              "num": 5
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#metodwi-predstavleniya-algoritmov",
+              "label": "Методы представления алгоритмов",
+              "num": 6
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#ocenka-korrektnosti-algoritma",
+              "label": "Оценка корректности алгоритма",
+              "num": 7
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#analiz-algoritma",
+              "label": "Анализ алгоритма",
+              "num": 8
+            },
+            {
+              "path": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi#kodirovanie-algoritma",
+              "label": "Кодирование алгоритма",
+              "num": 9
             }
           ],
           "filePath": "01-vvedenie/02-osnovwi-resheniya-algoritmicheskoy-zadachi/article.md",
           "num": 2,
           "label": "Основы решения алгоритмической задачи"
+        },
+        {
+          "name": "03-vazhnwie-tipwi-zadach",
+          "path": "01-vvedenie/03-vazhnwie-tipwi-zadach",
+          "items": [
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#sortirovka",
+              "label": "Сортировка",
+              "num": 1
+            },
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#poisk",
+              "label": "Поиск",
+              "num": 2
+            },
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#obrabotka-strok",
+              "label": "Обработка строк",
+              "num": 3
+            },
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#zadachi-iz-teorii-grafov",
+              "label": "Задачи из теории графов",
+              "num": 4
+            },
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#kombinatornwie-zadachi",
+              "label": "Комбинаторные задачи",
+              "num": 5
+            },
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#geometricheskie-zadachi",
+              "label": "Геометрические задачи",
+              "num": 6
+            },
+            {
+              "path": "01-vvedenie/03-vazhnwie-tipwi-zadach#chislennwie-zadachi",
+              "label": "Численные задачи",
+              "num": 7
+            }
+          ],
+          "filePath": "01-vvedenie/03-vazhnwie-tipwi-zadach/article.md",
+          "num": 3,
+          "label": "Важные типы задач"
+        },
+        {
+          "name": "04-bazovwie-strukturwi-dannwix",
+          "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix",
+          "items": [
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#lineynwie-strukturwi-dannwix",
+              "label": "Линейные структуры данных",
+              "num": 1
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#grafwi",
+              "label": "Графы",
+              "num": 2
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#predstavlenie-grafov",
+              "label": "Представление графов",
+              "num": 3
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#vzveshennwie-grafwi",
+              "label": "Взвешенные графы",
+              "num": 4
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#puti-i-ciklwi",
+              "label": "Пути и циклы",
+              "num": 5
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#derevqya",
+              "label": "Деревья",
+              "num": 6
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#kornevwie-derevqya",
+              "label": "Корневые деревья",
+              "num": 7
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#uporyadochennwie-derevqya",
+              "label": "Упорядоченные деревья",
+              "num": 8
+            },
+            {
+              "path": "01-vvedenie/04-bazovwie-strukturwi-dannwix#mnozhestva-i-slovari",
+              "label": "Множества и словари",
+              "num": 9
+            }
+          ],
+          "filePath": "01-vvedenie/04-bazovwie-strukturwi-dannwix/article.md",
+          "num": 4,
+          "label": "Базовые структуры данных"
+        },
+        {
+          "name": "05-rezyume",
+          "path": "01-vvedenie/05-rezyume",
+          "filePath": "01-vvedenie/05-rezyume/article.md",
+          "num": 5,
+          "label": "Резюме"
         }
       ],
       "num": 1,
