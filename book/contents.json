@@ -200,6 +200,28 @@
         {
           "name": "01-osnovwi-analiza",
           "path": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza",
+          "items": [
+            {
+              "path": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza#ocenka-razmera-vxodnwix-dannwix",
+              "label": "Оценка размера входных данных",
+              "num": 1
+            },
+            {
+              "path": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza#edinicwi-izmereniya-vremeni-vwipolneniya-algoritma",
+              "label": "Единицы измерения времени выполнения алгоритма",
+              "num": 2
+            },
+            {
+              "path": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza#poryadok-rosta",
+              "label": "Порядок роста",
+              "num": 3
+            },
+            {
+              "path": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza#weffektivnostq-algoritma-v-raznwix-sluchayax",
+              "label": "Эффективность алгоритма в разных случаях",
+              "num": 4
+            }
+          ],
           "filePath": "02-osnovwi-analiza-weffektivnosti-algoritmov/01-osnovwi-analiza/article.md",
           "num": 1,
           "label": "Основы анализа"
